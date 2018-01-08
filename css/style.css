@@ -1,0 +1,233 @@
+/*font-font*/
+
+@font-face {
+    font-family: 'Alien-Encounters';
+    src: url('../font/Alien-Encounters-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'TypoSlabserif-Light';
+    src: url('../font/TypoSlabserif-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Cabo Slab Regular';
+    src: url('../font/Cabo Slab Regular.otf');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../font/BebasNeue.otf');
+}
+
+/*lol*/
+
+#header #footer {
+    background-color: #0a1a2e !important;
+}
+
+body {
+    text-align: center;
+    background-image: url('../wallpaper.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judul {
+    font-family: 'TypoSlabserif-Light';
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.text {
+    font-family: 'Cabo Slab Regular';
+    font-size: 23px;
+    color: white;
+}
+
+.black-text {
+    color: black !important;
+}   
+
+/*header*/
+
+.logo-ifest {
+    width: 5.5%;
+    padding-top: 25px;
+}
+
+.header-text {
+    font-family: 'Alien-Encounters';
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.header-ifest a {
+    text-decoration: none;
+}
+
+/*navbar*/
+
+#navbar {
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+    opacity: 100%;
+    z-index: 11;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logoevent {
+    float: left;
+    width: 38%;
+    padding-top: 5px;
+    padding-bottom: 5 px;
+}
+
+.menubar ul > li {
+    display: inline-table;
+    list-style: none;
+    padding: 10px;
+}
+
+.menubar ul {
+    float: right !important;
+    margin-bottom: 0 !important;
+}
+
+.menubar li {
+    margin-bottom: 0 !important;
+}
+
+.menubar{
+    color: #2980b9 !important;
+    font-family: 'Philosopher-Regular';
+    font-size: 17px;
+}
+
+.menubar a{
+    text-decoration: none;
+}
+
+/*theme*/
+
+#theme {
+    background-image: url('../wallpapercoba4.jpg');
+    background-size: cover;
+    background-position: fixed;
+    padding: 50px;
+}
+
+.logogede {
+    padding-top: 50px;
+    width: 30%;
+}
+
+.tulisan-theme {
+    font-family: 'BebasNeue';
+    text-decoration: none;
+    color: #2980b9;
+    padding-bottom: 50px;
+}
+
+/*tentang*/
+
+.slider-image {
+    width: 50%;
+}
+
+/*kategori*/
+
+
+
+/*ketentuan*/
+
+
+
+/*hadiah*/
+
+.gambar-trophy {
+    width: 50%;
+}
+
+.hadiah-judul {
+    font-size: 25px;
+    color: white;
+}
+
+/*jadwal*/
+
+
+/*pendaftaran*/
+
+#pendaftaran {
+    background-color: lightblue;
+    padding: 50px 0px;
+}
+
+.pendaftaran-text {
+    font-family: 'Cabo Slab Regular';
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.button {
+    padding: 0px 50px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 248, 180);
+    background-color: rgb(218, 198, 18);
+    border-radius: 15px;
+    text-transform: none;
+}
+
+.button:hover {
+    background-color: rgb(155, 141, 20);
+    color: rgb(218, 198, 18);
+}
+
+/*footer*/
+
+.footer-border {
+    border: 5px;
+    border-style: inset;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+
+.contact-person {
+    float: left !important;
+}
+
+.social-media {
+    float: left !important ;
+}
+
+.socmed-icon {
+    width: 50%
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-socmed {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-socmed {
+    display: block;
+}
